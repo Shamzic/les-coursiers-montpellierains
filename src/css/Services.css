@@ -1,0 +1,7 @@
+.tabs .indicator {
+  background-color: purple;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+  background: transparent;
+}

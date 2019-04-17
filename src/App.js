@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import NavBar from './components/NavBar.js'
 import Container from './components/Container.js';
 import PhotoGrid from './components/PhotoGrid.js';
+import Services from './components/Services.js';
+import Parallax from './components/Parallax.js';
+import Parallax2 from './components/Parallax2.js';
+import ContactForm from './components/ContactForm.js';
+import Footer from './components/Footer.js';
 
 
 class App extends Component {
@@ -11,21 +16,11 @@ class App extends Component {
           <NavBar/>
           <Container/>
           <PhotoGrid/>
-
-{/* 
-          <!-- navbar -->
-
-<!-- photo / grid -->
-
-<!-- parallax -->
-
-<!-- services / tabs -->
-
-<!-- parallax -->
-
-<!-- contact form -->
-
-<!-- footer --> */}
+          <Parallax/>
+          <Services/>
+          <Parallax2/>
+          <ContactForm/>
+          <Footer/>
       </div>
     );
   }
