@@ -1,5 +1,37 @@
-nav .badge {
+/* nav .badge {
     position: relative;
     top: 20px;
     right: 20px;
+} */
+
+header {
+  background-image: url(../img/background_coursiers_recadree_2.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 460px;
+  background-color: black;
+  /* -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%); */
+  opacity: 0.9;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+@media screen and (max-width: 1000px) {
+  header {
+    min-height: 200px;
+  }
+}
+
+.wrapper {
+  opacity: 0.65;
+}
+
+.wrapper .brand-logo.title {
+  margin-left: -11%;
+  color: red;
+}
+
+.menu-icon {
+  margin-left : -100%;
 }
