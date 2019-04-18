@@ -7,13 +7,12 @@ function Services() {
     <div>
     <section className="container section" id="services">
       <div className="row">
-        <div className="col s12 l4">
+        <div className="col s12 l6">
           <h2 className="indigo-text text-dark-4">Ce qu'on vous propose...</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, officia consequuntur! Alias consectetur quos quo excepturi voluptate. Delectus, necessitatibus. Est accusantium inventore, veniam debitis asperiores exercitationem ipsa error nobis repellendus!</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, officia consequuntur! Alias consectetur quos quo excepturi voluptate. Delectus, necessitatibus. Est accusantium inventore, veniam debitis asperiores exercitationem ipsa error nobis repellendus!</p>
 
         </div>
-        <div className="col s12 l6 offset-l2">
+        <div className="col s12 l6">
           <ul className="tabs">
             <li className="tab col s6">
               <a href="#photography" className="indigo-text text-darken-4">Photography</a>
