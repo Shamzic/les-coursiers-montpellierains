@@ -4,12 +4,10 @@ import '../css/ContactForm.css'
 
 function ContactForm() {
   return (
-    <section className="section container" id="ccontact">
+    <section className="section container scrollspy" id="contacts">
       <div className="row">
         <div className="col s12 l5">
           <h2 className="indigo-text text-darken-4">Contactez-nous</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe cumque in inventore culpa suscipit laudantium fuga aperiam omnis rerum consequatur, laborum earum necessitatibus eum hic adipisci quidem, optio magnam cum!</p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe cumque in inventore culpa suscipit laudantium fuga aperiam omnis rerum consequatur, laborum earum necessitatibus eum hic adipisci quidem, optio magnam cum!</p>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe cumque in inventore culpa suscipit laudantium fuga aperiam omnis rerum consequatur, laborum earum necessitatibus eum hic adipisci quidem, optio magnam cum!</p>
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe cumque in inventore culpa suscipit laudantium fuga aperiam omnis rerum consequatur, laborum earum necessitatibus eum hic adipisci quidem, optio magnam cum!</p>
         </div>

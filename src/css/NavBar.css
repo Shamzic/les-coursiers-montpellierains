@@ -19,12 +19,17 @@ header {
 
 @media screen and (max-width: 1000px) {
   header {
-    min-height: 200px;
+    min-height: 150px;
+  }
+  .brand-logo.black-text.text-darken-2.title {
+    font-size: 1.8rem;
+    width: 100%;
+    margin-left: 15%
   }
 }
 
 .wrapper {
-  opacity: 0.65;
+  opacity: 0.55;
 }
 
 .wrapper .brand-logo.title {
@@ -34,4 +39,8 @@ header {
 
 .menu-icon {
   margin-left : -100%;
+}
+
+.sidenav {
+
 }

@@ -5,7 +5,7 @@ import '../css/Services.css'
 function Services() {
   return (
     <div>
-    <section className="container section" id="services">
+    <section className="container section scrollspy" id="services">
       <div className="row">
         <div className="col s12 l6">
           <h2 className="indigo-text text-dark-4">Ce qu'on vous propose...</h2>

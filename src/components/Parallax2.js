@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
-import '../css/Parallax2.css'
+import '../css/Parallax.css'
 import Street from '../img/photo_groupe2.jpg'
 
 function Parallax2() {

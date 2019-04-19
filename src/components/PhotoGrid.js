@@ -9,7 +9,7 @@ import four from '../img/yannick_roule_style.jpg'
 function PhotoGrid() {
   return (
     <div>
-      <section className="container" id="photos">
+      <section className="container scrollspy" id="photos">
         <div className="row">
           <div className="col s12 l4 ">
             <img src={portrait} alt="" className="responsive-img materialboxed"/>
