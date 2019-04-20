@@ -2,3 +2,9 @@
   padding-top: 8%;
   padding-bottom: 10%;
 }
+
+@media screen and (max-width: 1000px) {
+  .btn-large{
+    font-size: 11px;
+  }
+}

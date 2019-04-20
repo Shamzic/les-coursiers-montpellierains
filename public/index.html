@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.jpg" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -37,7 +37,8 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <title>Les Coursiers Montpelliérains</title>
-    
+    <link rel="shortcut icon" type="image/jpg" href="/favicon.jpg"/>
+
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -52,7 +53,7 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>  
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
       <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
@@ -62,8 +63,12 @@
         $('.parallax').parallax();
         $('.tabs').tabs();
         $('.datepicker').datepicker({
-          //disableWeekends: true,
-        });
+
+            close : 'fermer',
+        		format: 'dd/mm/yyyy'
+
+
+          });
         $('.tooltipped').tooltip();
         $('.scrollspy').scrollSpy();
       })

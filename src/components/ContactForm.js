@@ -4,12 +4,12 @@ import '../css/ContactForm.css'
 
 function ContactForm() {
   return (
-    <section className="section container scrollspy" id="contacts">
+    <form action="/my-handling-form-page" method="post" className="section container scrollspy" id="contacts">
       <div className="row">
         <div className="col s12 l5">
           <h2 className="indigo-text text-darken-4">Contactez-nous</h2>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe cumque in inventore culpa suscipit laudantium fuga aperiam omnis rerum consequatur, laborum earum necessitatibus eum hic adipisci quidem, optio magnam cum!</p>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe cumque in inventore culpa suscipit laudantium fuga aperiam omnis rerum consequatur, laborum earum necessitatibus eum hic adipisci quidem, optio magnam cum!</p>
+          <p>Nous sommes disponibles à tout moment sur un grand nombre de réseaux sociaux. Nous ferons en sorte de vous répondre dans les minutes qui suivent votre demande.</p>
+          <p>Nous pouvons également vous rencontrer. Pour cela, n'hésitez pas à proposer une date via le formulaire de contact! </p>
         </div>
         <div className="col s12 l6 offset-l1">
           <from action="">
@@ -27,33 +27,33 @@ function ContactForm() {
             <div className="input-field">
             <i className="material-icons prefix">date_range</i>
               <input type="text" id="date" className="datepicker"/>
-              <label for="message">Votre date si vous souhaitez nous joindre</label>
+              <label for="message">Une disponibilité pour nous rencontrer</label>
             </div>
 
             <div className="input-field">
-              <h6>Sujet de votre requête :</h6>
+              <h6>Sujet(s) de votre requête :</h6>
               <p>
                 <label>
                   <input type="checkbox"/>
-                  <span>Au sujet d'une commande</span>
+                  <span>A propos d'une commande</span>
                 </label>
               </p>
               <p>
                 <label>
                   <input type="checkbox"/>
-                  <span>Au sujet de la plateforme</span>
+                  <span>A propos de la plateforme</span>
                 </label>
               </p>
               <p>
-              <label>                
+              <label>
                   <input type="checkbox"/>
-                  <span>Je suis coursier et souhaite vous rejoindre</span>
+                  <span>Je suis coursier</span>
                 </label>
               </p>
               <p>
                 <label>
                   <input type="checkbox"/>
-                  <span>Je suis restaurateur et souhaite vous rejoindre</span>
+                  <span>Je suis restaurateur</span>
                 </label>
               </p>
               <p>
@@ -69,9 +69,9 @@ function ContactForm() {
           </from>
         </div>
       </div>
-      
-     
-    </section>
+
+
+    </form>
   )
 }
 

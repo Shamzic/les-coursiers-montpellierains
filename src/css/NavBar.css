@@ -10,37 +10,39 @@ header {
   background-position: center;
   min-height: 460px;
   background-color: black;
-  /* -webkit-filter: grayscale(100%); 
+  /* -webkit-filter: grayscale(100%);
   filter: grayscale(100%); */
-  opacity: 0.9;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
+.wrapper{
+      opacity: 0.75;
+}
+  .brand-logo.black-text.text-darken-2.title {
+  }
+
 @media screen and (max-width: 1000px) {
   header {
-    min-height: 150px;
+    min-height: 200px;
   }
   .brand-logo.black-text.text-darken-2.title {
-    font-size: 1.8rem;
+    font-size: 1.65rem;
     width: 100%;
-    margin-left: 15%
+    margin-left: 15%;
+    opacity: 1.0;
+  }
+
+  .wrapper{
+    opacity: 1.0;
   }
 }
 
-.wrapper {
-  opacity: 0.55;
-}
 
 .wrapper .brand-logo.title {
   margin-left: -11%;
-  color: red;
 }
 
 .menu-icon {
   margin-left : -100%;
-}
-
-.sidenav {
-
 }

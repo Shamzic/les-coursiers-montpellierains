@@ -5,3 +5,10 @@
 .tabs .tab a:focus, .tabs .tab a:focus.active {
   background: transparent;
 }
+
+.material-icons {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
