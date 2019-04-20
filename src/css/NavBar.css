@@ -16,25 +16,34 @@ header {
 
 }
 
-.wrapper{
-      opacity: 0.75;
+.container.navbar{
+  opacity: 0.75;
 }
   .brand-logo.black-text.text-darken-2.title {
   }
 
 @media screen and (max-width: 1000px) {
   header {
-    min-height: 200px;
+    min-height: 250px;
+    background-position: center;
+    background-position: center 20px;
   }
   .brand-logo.black-text.text-darken-2.title {
-    font-size: 1.65rem;
+    font-size: 1.45rem;
     width: 100%;
     margin-left: 15%;
+  }
+  .sidenav {
     opacity: 1.0;
   }
+}
 
-  .wrapper{
-    opacity: 1.0;
+
+@media screen and (max-width: 750px) {
+  header {
+    min-height: 150px;
+    background-position: center;
+    background-position: center 20px;
   }
 }
 

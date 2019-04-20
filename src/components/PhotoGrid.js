@@ -25,7 +25,7 @@ function PhotoGrid() {
           </div>
           <div className="col s12 l6 pull-l4 left-align">
             <h4 className="black-text text-darken-4">Référence Coopcycle</h4>
-            <p>Ainsi vous allez pouvoir vous faire livrer vos repas chaque soirs dans toute la ville de Montpellier en commandant vos repas auprès de nos restaurants partenaires directement sur notre <a href="https://coursiersmontpellier.coopcycle.org/fr/">instance Coocycle</a>, référence et fédération européenne des coopératives de livraison à vélo. </p>
+            <p>Ainsi vous allez pouvoir vous faire livrer vos repas chaque soirs dans toute la ville de Montpellier en commandant vos repas auprès de nos restaurants partenaires directement sur notre <a href="https://coursiersmontpellier.coopcycle.org/fr/">instance Coopcycle</a>, référence et fédération européenne des coopératives de livraison à vélo. </p>
           </div>
         </div>
         <div className="row">
@@ -43,7 +43,7 @@ function PhotoGrid() {
           </div>
           <div className="col s12 l6 pull-l4 left-align">
             <h4 className="black-text text-darken-4">Des livreurs multi-outils</h4>
-            <p>Nous nous investissons à plein temps dans ce projet depuis plusieurs mois et nous avons tout fait par nous-même.</p>
+            <p>Nous nous investissons à plein temps dans ce projet depuis plusieurs mois et nous avons tout fait par nous-même. Grâce à notre expérience dans la livraison de repas et en combinant nos compétences externes (marketing, informatique, photographie, montage vidéo), nous avons décidé de nous lancer notre propre association de livraison.</p>
           </div>
         </div>
       </section>

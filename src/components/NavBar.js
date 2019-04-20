@@ -8,7 +8,7 @@ function NavBar() {
 
       <header>
         <nav className="wrapper white lighten-5 ">
-          <div className="container">
+          <div className="container navbar">
             <a href="#" className="sidenav-trigger" data-target="mobile-links">
               <i className="material-icons black-text text-darken-2 menu-icon">menu</i>
             </a>
@@ -27,14 +27,12 @@ function NavBar() {
                 <i className="fab fa-twitter"></i>
               </a></li>
             </ul>
-
+          </div>
             <ul className="sidenav" id="mobile-links">
               <li><a href="#photos">Photos</a></li>
               <li><a href="#services">Services</a></li>
               <li><a href="#contacts">Contacts</a></li>
             </ul>
-
-          </div>
         </nav>
       </header>
     </div>
