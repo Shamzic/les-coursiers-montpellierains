@@ -9,7 +9,7 @@ function Services() {
       <div className="row">
         <div className="col s12 l5">
           <h4 className="black-text text-dark-4">Ce qu'on vous propose...</h4>
-          <p>Le contexte actuel de la livraison de repas est menacé par l'exploitation des indépendants, contrôlé par des algorithmes et la qualité des services proposés par les géants se détériore au fil des jours pour prioriser la quantité. Nous souhaitons nous démarquer par notre qualité de service irréprochable et notre éthique locale.</p>
+        <p>Le contexte actuel de la livraison de repas est menacé par l'exploitation des indépendants. Les livreurs se retrouvent contrôlés par des algorithmes, peuvent être mis à la porte en un clic et la qualité des services proposés par les géants se détériore au fil des jours pour prioriser la quantité. Nous souhaitons nous démarquer par notre qualité de service irréprochable et notre éthique locale.</p>
         </div>
         <div className="col s12 l6 offset-l1">
           <ul className="tabs">

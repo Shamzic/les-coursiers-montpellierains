@@ -1,3 +1,20 @@
 p {
   text-align: justify;
 }
+
+.emailIcon {
+  padding-right: 10px;
+}
+
+#emailButton {
+  margin-top: 30%;
+  width: 120%;
+  height: 200%;
+}
+
+@media screen and (max-width: 1000px) {
+  #emailButton {
+    margin-top: 0%;
+    width: 100%;
+  }
+}

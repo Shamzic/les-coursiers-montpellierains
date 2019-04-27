@@ -9,6 +9,7 @@ header {
   background-size: cover;
   background-position: center;
   min-height: 460px;
+  background-position: center 0px;
   background-color: black;
   /* -webkit-filter: grayscale(100%);
   filter: grayscale(100%); */
@@ -16,25 +17,41 @@ header {
 
 }
 
+#title {
+  margin-left: -14%;
+}
+
+#logoTitle {
+  padding-top:20px;
+  padding-left:5px;
+  position: absolute;
+  height: 55px;
+}
+
 .container.navbar{
   opacity: 0.75;
 }
-  .brand-logo.black-text.text-darken-2.title {
-  }
 
-@media screen and (max-width: 1000px) {
+
+@media screen and (max-width: 1001px) {
+
+
   header {
     min-height: 250px;
-    background-position: center;
-    background-position: center 20px;
   }
-  .brand-logo.black-text.text-darken-2.title {
-    font-size: 1.45rem;
+  #title {
+    margin-left: 0;
+    font-size: 1.55rem;
+    text-align: center;
     width: 100%;
-    margin-left: 15%;
+    position: absolute;
   }
   .sidenav {
     opacity: 1.0;
+  }
+
+  #logoTitle {
+    padding-top:15px;
   }
 }
 
@@ -48,10 +65,31 @@ header {
 }
 
 
-.wrapper .brand-logo.title {
-  margin-left: -11%;
-}
+@media screen and (max-width: 600px) {
 
-.menu-icon {
-  margin-left : -100%;
+    #logoTitle {
+      padding-top:10px;
+      height: 45px;
+    }
+  }
+
+
+@media screen and (max-width: 400px) {
+
+    #title {
+      font-size: 1.20rem;
+      text-align: center;
+      width: 100%;
+    }
+
+    #logoTitle {
+      padding-top:20px;
+      padding-left:10px;
+      position: absolute;
+      height: 45px;
+    }
+  }
+
+#menu-icon {
+  margin-left: -50%;
 }

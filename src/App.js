@@ -6,7 +6,10 @@ import Services from './components/Services.js';
 import Parallax from './components/Parallax.js';
 import Parallax2 from './components/Parallax2.js';
 import ContactForm from './components/ContactForm.js';
+import Contact from './components/Contact.js';
+import Contact2 from './components/Contact0.js';
 import Footer from './components/Footer.js';
+import './css/App.css';
 
 
 class App extends Component {
