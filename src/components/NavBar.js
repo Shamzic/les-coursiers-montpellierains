@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import '../css/NavBar.css'
-import logo from '../img/LOGO_LCM_FAVICON2.png'
+import logo from '../img/LOGO_LCM_FAVICON3_REDUCED.png'
 
 function NavBar() {
   return (
@@ -14,7 +14,7 @@ function NavBar() {
               <i className="material-icons black-text text-darken-2 menu-icon" id="menu-icon">menu</i>
             </a>
             <a href="https://coursiers-montpellier.fr/" id="title" className="brand-logo black-text text-darken-2 title"><b>L</b>es <b>C</b>oursiers <b>M</b>ontpelliérains
-              <img src={logo} id="logoTitle"></img>
+              <img src={logo} alt="" id="logoTitle"></img>
             </a>
             <ul className="right hide-on-med-and-down black-text text-darken-2">
               <li><a href="#photos" className="black-text text-darken-2">Photos</a></li>

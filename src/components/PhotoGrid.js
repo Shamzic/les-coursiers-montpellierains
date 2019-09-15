@@ -1,10 +1,22 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import '../css/PhotoGrid.css'
-import coursier_orange from '../img/coursier_orange.jpg'
-import drop_off from '../img/drop_off.jpg'
-import alex_vince from '../img/alex_vince.jpg'
-import yannick_roule_style from '../img/yannick_roule_style.jpg'
+
+import AlexVinceSmall from '../img/alexVince_small.webp'
+import AlexVinceMedium from '../img/alexVince_medium.webp'
+import AlexVinceLarge from '../img/alexVince_large.webp'
+
+import YannickStyleSmall from '../img/yannickStyle_small.webp'
+import YannickStyleMedium from '../img/yannickStyle_medium.webp'
+import YannickStyleLarge from '../img/yannickStyle_large.webp'
+
+import DropOffSmall from '../img/dropOff_small.webp'
+import DropOffMedium from '../img/dropOff_medium.webp'
+import DropOffLarge from '../img/dropOff_large.webp'
+
+import CoursierOrangeSmall from '../img/coursierOrange_small.webp'
+import CoursierOrangeMedium from '../img/coursierOrange_medium.webp'
+import CoursierOrangeLarge from '../img/coursierOrange_large.webp'
 
 function PhotoGrid() {
   return (
@@ -12,7 +24,7 @@ function PhotoGrid() {
       <section className="container scrollspy" id="photos">
         <div className="row">
           <div className="col s12 l4 ">
-            <img src={alex_vince} alt="" className="responsive-img materialboxed"/>
+            <img src={AlexVinceSmall} srcSet={AlexVinceSmall+" 300w,"+AlexVinceMedium+" 768w,"+AlexVinceLarge+" 1280w"} alt="" className="responsive-img materialboxed"/>
           </div>
           <div className="col s12 l6 offset-l1">
             <h4 className="black-text text-darken-4">Rapide, écologique et local</h4>
@@ -21,7 +33,7 @@ function PhotoGrid() {
         </div>
         <div className="row">
           <div className="col s12 l4 push-l7 ">
-            <img src={coursier_orange} alt="" className="responsive-img materialboxed"/>
+              <img src={CoursierOrangeSmall} srcSet={CoursierOrangeSmall+" 300w,"+CoursierOrangeMedium+" 768w,"+CoursierOrangeLarge+" 1280w"} alt="" className="responsive-img materialboxed"/>
           </div>
           <div className="col s12 l6 pull-l4 left-align">
             <h4 className="black-text text-darken-4">Référence Coopcycle</h4>
@@ -30,7 +42,7 @@ function PhotoGrid() {
         </div>
         <div className="row">
           <div className="col s12 l4">
-            <img src={drop_off} alt="" className="responsive-img materialboxed"/>
+            <img src={DropOffSmall} srcSet={DropOffSmall+" 300w,"+DropOffMedium+" 768w,"+DropOffLarge+" 1280w"} alt="" className="responsive-img materialboxed"/>
           </div>
           <div className="col s12 l6 offset-l1">
             <h4 className="black-text text-darken-4">Plus proche de vous</h4>
@@ -39,7 +51,7 @@ function PhotoGrid() {
         </div>
         <div className="row">
           <div className="col s12 l4 push-l7 ">
-            <img src={yannick_roule_style} alt="" className="responsive-img materialboxed"/>
+              <img src={YannickStyleSmall} srcSet={YannickStyleSmall+" 300w,"+YannickStyleMedium+" 768w,"+YannickStyleLarge+" 1280w"} alt="" className="responsive-img materialboxed"/>
           </div>
           <div className="col s12 l6 pull-l4 left-align">
             <h4 className="black-text text-darken-4">Des livreurs multi-outils</h4>
