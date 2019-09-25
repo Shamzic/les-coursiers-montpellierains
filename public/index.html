@@ -14,6 +14,11 @@
     -->
     <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
     <link rel="manifest" href="./manifest.json" />
+    <!-- IOs support -->
+    <link rel="apple-touch-icon" href="./Logo_favicon_128x128.png" />
+    <meta name="apple-mobile-web-app-status-bar" content="#000000"/>
+    <meta name="theme-color" content="#ffffff"/>
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -65,12 +70,13 @@
         $('.scrollspy').scrollSpy();
       })
     </script>
-    <script>;
+    <script>
       if('serviceWorker' in navigator) {
         navigator.serviceWorker
                  .register('/sw.js')
-                 .then(function() { console.log("Service Worker Registered"); });
+                 .then((reg) => console.log("Service Worker Registered", reg))
+                 .catch((err) => console.log("Service Wroker not registered",  err));
       }
-  </script>;
+  </script>
   </body>
 </html>

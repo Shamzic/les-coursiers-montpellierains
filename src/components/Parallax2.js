@@ -2,11 +2,15 @@
 import React from 'react'
 import '../css/Parallax.css'
 
-import StreetSmall from '../img/groupe_small.webp'
-import StreetMedium from '../img/groupe_medium.webp'
-import StreetLarge from '../img/groupe_large.webp'
+// import StreetSmall from '/groupe_small.jp2'
+// import StreetMedium from '/groupe_medium.jp2'
+// import StreetLarge from '/groupe_large.jp2'
 
 function Parallax2() {
+
+  const StreetSmall =  '/groupe_small.jp2'
+  const StreetMedium = '/groupe_medium.jp2'
+  const StreetLarge = '/groupe_large.jp2'
   return (
     <div>
       <div className="parallax-container">

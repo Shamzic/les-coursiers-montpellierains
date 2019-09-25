@@ -2,11 +2,15 @@
 import React from 'react'
 import '../css/Parallax.css'
 
-import VeloCollesSmall from '../img/veloColles_small.webp'
-import VeloCollesMedium from '../img/veloColles_medium.webp'
-import VeloCollesLarge from '../img/veloColles_large.webp'
+// import VeloCollesSmall from '/img/velos_colles_small.jp2'
+// import VeloCollesMedium from '/img/velos_colles_medium.jp2'
+// import VeloCollesLarge from '/img/velos_colles_large.jp2'
 
 function Parallax() {
+
+  const VeloCollesSmall  = '/velos_colles_small.jp2'
+  const VeloCollesMedium = '/velos_colles_medium.jp2'
+  const VeloCollesLarge  = '/velos_colles_large.jp2'
   return (
     <div>
     <div className="parallax-container">

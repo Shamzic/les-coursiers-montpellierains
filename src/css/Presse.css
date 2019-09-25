@@ -1,0 +1,43 @@
+h3 {
+  text-align: center;
+  margin-top: 2%;
+}
+
+.imagesList .responsive-img {
+  width: 20%;
+  height: auto;
+}
+
+#fr3 {
+  width: 35%;
+}
+
+#vingtMin {
+  width: 20%;
+}
+
+#midiLibre {
+  width: 40%;
+}
+
+#metropolitain {
+  width: 30%;
+  margin-left: 5%;
+}
+#viaOccitanie {
+    width: 17%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#linfoDurable {
+    width: 30%;
+}
+
+#presse {
+  margin-bottom: 1%;
+}
+
+hr {
+  margin-top: 5%;
+}

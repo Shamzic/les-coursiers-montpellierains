@@ -2,23 +2,41 @@
 import React from 'react'
 import '../css/PhotoGrid.css'
 
-import AlexVinceSmall from '../img/alexVince_small.webp'
-import AlexVinceMedium from '../img/alexVince_medium.webp'
-import AlexVinceLarge from '../img/alexVince_large.webp'
-
-import YannickStyleSmall from '../img/yannickStyle_small.webp'
-import YannickStyleMedium from '../img/yannickStyle_medium.webp'
-import YannickStyleLarge from '../img/yannickStyle_large.webp'
-
-import DropOffSmall from '../img/dropOff_small.webp'
-import DropOffMedium from '../img/dropOff_medium.webp'
-import DropOffLarge from '../img/dropOff_large.webp'
-
-import CoursierOrangeSmall from '../img/coursierOrange_small.webp'
-import CoursierOrangeMedium from '../img/coursierOrange_medium.webp'
-import CoursierOrangeLarge from '../img/coursierOrange_large.webp'
+// import AlexVinceSmall from '../img/alexVince_small.jp2'
+// import AlexVinceMedium from '../img/alexVince_medium.jp2'
+// import AlexVinceLarge from '../img/alexVince_large.jp2'
+//
+// import YannickStyleSmall from '../img/yannick_style_small.jp2'
+// import YannickStyleMedium from '../img/yannick_style_medium.jp2'
+// import YannickStyleLarge from '../img/yannick_style_large.jp2'
+//
+// import DropOffSmall from '../img/drop_off_small.jp2'
+// import DropOffMedium from '../img/drop_off_medium.jp2'
+// import DropOffLarge from '../img/drop_off_large.jp2'
+//
+// import CoursierOrangeSmall from '../img/coursier_orange_small.jp2'
+// import CoursierOrangeMedium from '../img/coursier_orange_medium.jp2'
+// import CoursierOrangeLarge from '../img/coursier_orange_large.jp2'
 
 function PhotoGrid() {
+
+
+  const AlexVinceSmall  = '/alexVince_small.jp2'
+  const AlexVinceMedium = '/alexVince_medium.jp2'
+  const AlexVinceLarge = '/alexVince_large.jp2'
+
+  const YannickStyleSmall = '/yannick_style_small.jp2'
+  const YannickStyleMedium = '/yannick_style_medium.jp2'
+  const YannickStyleLarge = '/yannick_style_large.jp2'
+
+  const DropOffSmall = '/drop_off_small.jp2'
+  const DropOffMedium = '/drop_off_medium.jp2'
+  const DropOffLarge = '/drop_off_large.jp2'
+
+  const CoursierOrangeSmall = '/coursier_orange_small.jp2'
+  const CoursierOrangeMedium = '/coursier_orange_medium.jp2'
+  const CoursierOrangeLarge = '/coursier_orange_large.jp2'
+
   return (
     <div>
       <section className="container scrollspy" id="photos">
