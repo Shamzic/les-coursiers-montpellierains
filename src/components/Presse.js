@@ -12,9 +12,9 @@ function Presse() {
   return (
     <div>
     <section className="container section scrollspy" id="presse">
-    <hr width="80%"/>
+    <hr width="90%"/>
     <h3> Ils parlent de nous</h3>
-      <div class="imagesList">
+      <div className="imagesList">
 
         <a href="https://france3-regions.francetvinfo.fr/occitanie/herault/montpellier/montpellier-coursiers-velo-creent-cooperative-mettre-plus-ethique-livraison-repas-1665871.html"  target="_blank" rel="noopener noreferrer" >
           <img id="fr3" src={Fr3Logo} alt="" className="responsive-img"/>
@@ -41,7 +41,7 @@ function Presse() {
         </a>
 
       </div>
-    	<hr width="80%"/>
+    	<hr width="90%"/>
     </section>
     </div>
   )

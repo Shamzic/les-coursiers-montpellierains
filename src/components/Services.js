@@ -22,7 +22,7 @@ function Services() {
           </ul>
           <div className="col s12" id="photography">
             <h6 className=" green-text text-darken-4"> <i className="material-icons">check</i> DISPONIBLE</h6>
-            <p>Vous pouvez, à compter du premier mai 2019,  <a href="https://coursiersmontpellier.coopcycle.org/fr/">commander</a> votre repas dans l'un de nos restaurants partenaires !</p>
+            <p>Depuis le premier mai 2019, vous pouvez <a href="https://coursiersmontpellier.coopcycle.org/fr/">commander</a> votre repas dans l'un de nos restaurants partenaires !</p>
           </div>
           <div className="col s12" id="editing">
               <h6 className=" red-text text-darken-4"> <i className="material-icons">warning</i> A VENIR</h6>

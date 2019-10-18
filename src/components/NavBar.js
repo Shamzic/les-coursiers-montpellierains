@@ -19,6 +19,8 @@ function NavBar() {
             <ul className="right hide-on-med-and-down black-text text-darken-2">
               <li><a href="#photos" className="black-text text-darken-2">Photos</a></li>
               <li><a href="#services" className="black-text text-darken-2">Services</a></li>
+              <li><a href="#presse" className="black-text text-darken-2">Presse</a></li>
+              <li><a href="#soutien" className="black-text text-darken-2">Soutien</a></li>
               <li><a href="#contacts" className="black-text text-darken-2">Contacts</a></li>
               <li><a href="https://www.instagram.com/coursiersmtp/" target="_blank" rel="noopener noreferrer" className="tooltipped btn-floating btn-small black darken-4" data-tooltip="Instagram">
                 <i className="fab fa-instagram"></i>
@@ -34,6 +36,8 @@ function NavBar() {
             <ul className="sidenav" id="mobile-links">
               <li><a href="#photos">Photos</a></li>
               <li><a href="#services">Services</a></li>
+              <li><a href="#presse">Presse</a></li>
+              <li><a href="#soutien">Soutien</a></li>
               <li><a href="#contacts">Contacts</a></li>
             </ul>
         </nav>
