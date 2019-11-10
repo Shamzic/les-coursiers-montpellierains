@@ -10,7 +10,7 @@ function Container() {
               <h5> <b>Nouveau</b> : financement participatif zéro déchets, aidez-nous <b>ici</b> <i className="material-icons btn pulse red">trending_up</i> !</h5>
             </a>
             <br/><br/>
-            <a href="https://coursiersmontpellier.coopcycle.org" className="col s12 btn-large waves-effect waves-light black yellow-text cmd-button">Faites vous livrer votre repas en cliquant ICI<i className="material-icons right">send</i> </a>
+            <a href="https://coursiersmontpellier.coopcycle.org" className="col s12 btn-large waves-effect waves-light black yellow-text cmd-button">Commandez ICI<i className="material-icons right">send</i> </a>
           <h6> Vous pouvez passer commande chaque jour entre <b>11h30</b> et <b>14h30</b>, et chaque soir entre <b>18h</b> et <b>23h</b></h6>
   </div>
   )

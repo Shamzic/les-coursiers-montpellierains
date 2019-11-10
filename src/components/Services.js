@@ -25,8 +25,10 @@ function Services() {
             <p>Depuis le premier mai 2019, vous pouvez <a href="https://coursiersmontpellier.coopcycle.org/fr/">commander</a> votre repas dans l'un de nos restaurants partenaires !</p>
           </div>
           <div className="col s12" id="editing">
-              <h6 className=" red-text text-darken-4"> <i className="material-icons">warning</i> A VENIR</h6>
-              <p>Dans un futur proche, nous souhaitons élargir nos services de livraison aux plis postaux et aux colis. Si vous êtes une entreprise en recherche de livreurs hors repas, n'hésitez pas à nous contacter.</p>
+              <h6 className=" green-text text-darken-4"> <i className="material-icons">check</i> DISPONIBLE</h6>
+              <p>Entreprise ou particuliers, nous livrons dès à présent tout type de colis avec des vélos cargos sur la ville de montpellier, n'hésitez pas à nous contacter*.</p>
+              <div className="asterisk"><p>*En cas de problème pour nous contacter par mail (voir onglet contact), vous pouvez également nous joindre au 07.84.17.99.89.</p></div>
+
           </div>
         </div>
       </div>

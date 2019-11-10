@@ -12,3 +12,7 @@
     justify-content: center;
     vertical-align: middle;
 }
+
+.asterisk {
+  font-style: italic;
+}
