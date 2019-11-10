@@ -22,12 +22,13 @@ function Services() {
           </ul>
           <div className="col s12" id="photography">
             <h6 className=" green-text text-darken-4"> <i className="material-icons">check</i> DISPONIBLE</h6>
-            <p>Depuis le premier mai 2019, vous pouvez <a href="https://coursiersmontpellier.coopcycle.org/fr/">commander</a> votre repas dans l'un de nos restaurants partenaires !</p>
+            <p>Depuis le premier mai 2019, vous pouvez <a href="https://coursiersmontpellier.coopcycle.org/fr/">commander</a> votre repas dans l'un de nos restaurants partenaires !*</p>
+            <div className="asterisk"><p>*Pour les restaurateurs souhaitant nous contacter par mail, voir l'onglet contact ci-dessous. Vous pouvez également nous joindre au 07.84.17.99.89.</p></div>
           </div>
           <div className="col s12" id="editing">
               <h6 className=" green-text text-darken-4"> <i className="material-icons">check</i> DISPONIBLE</h6>
-              <p>Entreprise ou particuliers, nous livrons dès à présent tout type de colis avec des vélos cargos sur la ville de montpellier, n'hésitez pas à nous contacter*.</p>
-              <div className="asterisk"><p>*En cas de problème pour nous contacter par mail (voir onglet contact), vous pouvez également nous joindre au 07.84.17.99.89.</p></div>
+              <p>Entreprises ou particuliers, nous livrons dès à présent tous types de colis avec des vélos cargos sur la ville de Montpellier, n'hésitez pas à nous contacter.*</p>
+              <div className="asterisk"><p>*Pour nous contacter par mail, voir l'onglet contact ci-dessous. Vous pouvez également nous joindre au 07.84.17.99.89.</p></div>
 
           </div>
         </div>
