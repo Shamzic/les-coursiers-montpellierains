@@ -25,6 +25,9 @@ function PhotoGrid() {
   const AlexVinceMedium = '/alexVince_medium.jp2'
   const AlexVinceLarge = '/alexVince_large.jp2'
 
+  const PolVince  = '/pol_vince_smile.jpg'
+  const PolCargo  = '/pol_cargo.jpg'
+
   const YannickStyleSmall = '/yannick_style_small.jp2'
   const YannickStyleMedium = '/yannick_style_medium.jp2'
   const YannickStyleLarge = '/yannick_style_large.jp2'
@@ -42,7 +45,8 @@ function PhotoGrid() {
       <section className="container scrollspy" id="photos">
         <div className="row">
           <div className="col s12 l4 ">
-            <img src={AlexVinceSmall} srcSet={AlexVinceSmall+" 300w,"+AlexVinceMedium+" 768w,"+AlexVinceLarge+" 1280w"} alt="" className="responsive-img materialboxed"/>
+            {/*}<img src={AlexVinceSmall} srcSet={AlexVinceSmall+" 300w,"+AlexVinceMedium+" 768w,"+AlexVinceLarge+" 1280w"} alt="" className="responsive-img materialboxed"/> */}
+            <img src={PolVince} alt="" className="responsive-img materialboxed"/>
           </div>
           <div className="col s12 l6 offset-l1">
             <h4 className="black-text text-darken-4">Rapide, écologique et local</h4>
@@ -51,7 +55,8 @@ function PhotoGrid() {
         </div>
         <div className="row">
           <div className="col s12 l4 push-l7 ">
-              <img src={CoursierOrangeSmall} srcSet={CoursierOrangeSmall+" 300w,"+CoursierOrangeMedium+" 768w,"+CoursierOrangeLarge+" 1280w"} alt="" className="responsive-img materialboxed"/>
+              {/*<img src={CoursierOrangeSmall} srcSet={CoursierOrangeSmall+" 300w,"+CoursierOrangeMedium+" 768w,"+CoursierOrangeLarge+" 1280w"} alt="" className="responsive-img materialboxed"/>*/}
+              <img src={PolCargo} alt="" className="responsive-img materialboxed"/>
           </div>
           <div className="col s12 l6 pull-l4 left-align">
             <h4 className="black-text text-darken-4">Référence Coopcycle</h4>
