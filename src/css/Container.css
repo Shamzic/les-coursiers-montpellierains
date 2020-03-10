@@ -1,8 +1,93 @@
+:root {
+  --orange-lcm: #E69D3D;
+  --bleu-lcm: #003aa8;
+}
+
 .container.content {
   padding-top: 3%;
   padding-bottom: 5%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.btn-large {
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+
+.btn:hover, .btn-large:hover, .btn-small:hover {
+  background-color:#011052 ;
+}
+
+.btn {
+  margin-top : 8px;
+  border-radius: 15px;
+}
+
+.btn-small {
+  margin-top: 5px;
+  background-color:#011052 ;
+  border-radius: 5px;
+}
+
+.app-button {
+  margin-bottom: 50px;
+}
+
+.app-button a, .web-button a {
+  color: white;
+}
+
+/* BOUTONS */
+.btn-large, .btn-small {
+  background-color: var(--bleu-lcm);
+}
+
+.btn-large .btn{
+  background-color: var(--orange-lcm);
+  color: var(--bleu-lcm);
+}
+
+.text-colis, .text-repas {
+  color: var(--orange-lcm);
+}
+
+/*  Couleurs inversées  */
+/*
+.btn-large.repas {
+  background-color: var(--bleu-lcm);
+}
+
+.btn-large.colis {
+  background-color: var(--orange-lcm) ;
+}
+.btn-large.repas .btn{
+  background-color: var(--orange-lcm);
+  color: var(--bleu-lcm);
+}
+
+.btn-large.colis .btn{
+  background-color: var(--bleu-lcm);
+  color: var(--orange-lcm);
+}
+
+
+.text-colis {
+  color: var(--bleu-lcm);
+}
+
+.text-repas {
+  color: var(--orange-lcm);
+} */
+
+.contact-numbers p {
+  text-align: center;
+}
+
+span {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 
 #subtitle {
   margin-bottom: 4%;
