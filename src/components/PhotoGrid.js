@@ -28,9 +28,9 @@ function PhotoGrid() {
   const PolVince  = '/pol_vince_smile.jpg'
   const PolCargo  = '/pol_cargo.jpg'
 
-  const YannickStyleSmall = '/yannick_style_small.jp2'
-  const YannickStyleMedium = '/yannick_style_medium.jp2'
-  const YannickStyleLarge = '/yannick_style_large.jp2'
+  const YannickStyleSmall = '/hp_de_dos.jpg'
+  const YannickStyleMedium = '/hp_de_dos.jpg'
+  const YannickStyleLarge = '/hp_de_dos.jpg'
 
   const DropOffSmall = '/drop_off_small.jp2'
   const DropOffMedium = '/drop_off_medium.jp2'
@@ -50,7 +50,7 @@ function PhotoGrid() {
           </div>
           <div className="col s12 l6 offset-l1">
             <h4 className="black-text text-darken-4">Rapide, écologique et local</h4>
-            <p>Une équipe de jeunes coursiers Montpelliérains vous ouvre ses services de livraison à vélo dès le 1er mai 2019. En plus d'être rapide, écologique et local, nous vous garantissons un service de qualité grâce à nos coursiers expérimentés.</p>
+            <p>Une équipe de jeunes coursiers Montpelliérains vous ouvre ses services de livraison à vélo. En plus d'être rapide, écologique et local, nous vous garantissons un service de qualité grâce à nos coursiers expérimentés. <br/><br/>Nous pouvons vous livrer <b>tout ce qui est possible à livrer en vélo classique ou en vélo cargo</b>.</p>
           </div>
         </div>
         <div className="row">
@@ -60,7 +60,8 @@ function PhotoGrid() {
           </div>
           <div className="col s12 l6 pull-l4 left-align">
             <h4 className="black-text text-darken-4">Référence Coopcycle</h4>
-            <p>Ainsi vous allez pouvoir vous faire livrer vos repas chaque soir dans toute la ville de Montpellier en commandant vos repas auprès de nos restaurants partenaires directement sur notre <a href="https://coursiersmontpellier.coopcycle.org/fr/">instance Coopcycle</a>, référence et fédération européenne des coopératives de livraison à vélo. </p>
+            <p>Ainsi vous allez pouvoir vous faire livrer vos repas chaque midi et soir dans toute la ville de Montpellier en commandant auprès de nos restaurants partenaires directement sur notre <a href="https://coursiersmontpellier.coopcycle.org/fr/">instance Coopcycle</a>, référence et fédération européenne des coopératives de livraison à vélo. 
+            <br/><br/>Vous allez également pouvoir commander une course immédiate d'un colis ou tout objet ou cargaison via notre formulaire de course rapide disponible <a>ici</a>.</p>
           </div>
         </div>
         <div className="row">

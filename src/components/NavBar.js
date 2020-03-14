@@ -17,8 +17,8 @@ function NavBar() {
               <img src={logo} alt="" id="logoTitle"></img>
             </a>
             <ul className="right hide-on-med-and-down black-text text-darken-2">
+              <li><a href="#services" className="black-text text-darken-2">Commander un coursier</a></li>
               <li><a href="#photos" className="black-text text-darken-2">Photos</a></li>
-              <li><a href="#services" className="black-text text-darken-2">Services</a></li>
               <li><a href="#presse" className="black-text text-darken-2">Presse</a></li>
               <li><a href="#soutien" className="black-text text-darken-2">Soutien</a></li>
               <li><a href="#contacts" className="black-text text-darken-2">Contacts</a></li>

@@ -8,9 +8,9 @@ import '../css/Parallax.css'
 
 function Parallax() {
 
-  const VeloCollesSmall  = '/velos_colles_small.jp2'
-  const VeloCollesMedium = '/velos_colles_medium.jp2'
-  const VeloCollesLarge  = '/velos_colles_large.jp2'
+  const VeloCollesSmall  = '/parallax_multi.jpg'
+  const VeloCollesMedium = '/parallax_multi.jpg'
+  const VeloCollesLarge  = '/parallax_multi.jpg'
   return (
     <div>
     <div className="parallax-container">

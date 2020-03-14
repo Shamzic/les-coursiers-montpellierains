@@ -8,13 +8,14 @@ import '../css/Parallax.css'
 
 function Parallax2() {
 
-  const StreetSmall =  '/groupe_small.jp2'
-  const StreetMedium = '/groupe_medium.jp2'
-  const StreetLarge = '/groupe_large.jp2'
+  const StreetSmall =  '/parallax_yannick.jpg'
+  const StreetMedium = '/parallax_yannick.jpg'
+  const StreetLarge = '/parallax_yannick.jpg'
   return (
     <div>
       <div className="parallax-container">
         <div className="parallax">
+          Salut
           <img src={StreetSmall} srcSet={StreetSmall+" 300w,"+StreetMedium+" 768w,"+StreetLarge+" 1280w"} alt="" className="responsive-img"/>
         </div>
       </div>

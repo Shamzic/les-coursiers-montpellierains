@@ -40,9 +40,12 @@ class Container extends React.Component {
 
   render() {
   return (
+    <div>
     <div className="container content center">
       <h5 id="subtitle"> "Première coopérative Montpelliéraine de livraison à vélo"</h5>
       <div class="row">
+
+
         <div class="col  s12 m12 l6">
           <div class="row">
             <div class="col s8 offset-s2">
@@ -55,10 +58,15 @@ class Container extends React.Component {
         <div class="col  s12 m12 l6">
           <div class="row">
             <div class="col s8 offset-s2">
-              <div className="col s12 btn-large waves-effect waves-light cmd-button colis" onClick={this.formShow.bind(this)}><span className="text-colis">COURSES PLIS, COLIS</span><i className="btn material-icons right pulse">send</i> </div>
+              <a href="#commander_un_coursier">
+                <div className="col s12 btn-large waves-effect waves-light cmd-button colis" onClick={this.formShow.bind(this)}>
+                  <span className="text-colis"> COURSES, PLIS, COLIS</span>
+                  <i className="btn material-icons right pulse">send</i> 
+                </div>
+              </a>
             </div>
           </div>
-          <p> Livraison à <b>toute heure de la journée</b> de plis, colis, réassorts et tout autre type de livraison possible en vélo cargo ou vélo classique via un <b>formulaire en ligne</b> ou par <b>contact immédiat</b> les boutons ci-dessous.</p>
+          <p>Livraison à <b>toute heure de la journée</b> de plis, colis, réassorts et tout autre type de livraison possible en vélo cargo ou vélo classique via un <b>formulaire de course unique </b> ou par <b>contact immédiat</b>.</p>
         </div>
       </div>
       <div className="col s6 offset-s3 btn-small waves-effect waves-light cmd-button" onClick={this.contactShow.bind(this)}>{this.state.contact}</div>
@@ -69,7 +77,8 @@ class Container extends React.Component {
               <p><b>Vincent Robillard - 06.37.73.68.43</b></p>
             </span>
         </div>
-  </div>
+    </div>
+    </div>
   )
   }
 }

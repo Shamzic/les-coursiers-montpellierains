@@ -10,7 +10,7 @@ function ContactForm()  {
         <div className="col s12 l5">
           <h2 className="black-text text-darken-4">Contactez-nous</h2>
           <p>Nous sommes disponibles à tout moment sur un grand nombre de réseaux sociaux. Nous ferons en sorte de vous répondre dans les minutes qui suivent votre demande.</p>
-        <p>Nous pouvons également vous rencontrer. Pour cela, n'hésitez pas à nous indiquer vos disponibilités! </p>
+        <p>Nous pouvons également vous rencontrer. Veuillez à bien nous indiquer vos disponibilités!</p>
         </div>
         <div className="col s12 l6 offset-l1">
           <a href="mailto:contact@coursiers-montpellier.fr">

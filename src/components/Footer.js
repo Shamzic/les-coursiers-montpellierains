@@ -9,8 +9,7 @@ function Footer() {
         <div className="row ">
           <div className="col s12 l7">
             <h5  className="">A propos</h5>
-            <p id="apropos">Association de livreurs à vélo, nous vous proposons un service de livraison de repas de qualité par des coursiers aguéris. La plateforme ouvre à partir du premier mai 2019 dans la ville de Montpellier et sa périphérie.
-            Nous vous attendons au tournant pour le début de nos aventures !
+            <p id="apropos">Association de livreurs à vélo, nous vous proposons un service de livraison de qualité par des coursiers aguéris. Entreprises ou particuliers, nous livrons dès à présent des repas midi et soir et tous types de colis avec des vélos cargos et classiques sur la ville de Montpellier, n'hésitez pas à nous contacter.
             </p>
             </div>
             <div className="col s12 l4 offset-l1">
