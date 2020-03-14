@@ -1,3 +1,8 @@
+:root {
+  --orange-lcm: #E69D3D;
+  --bleu-lcm: #003aa8;
+}
+
 .tabs .indicator {
   background-color: purple;
 }
@@ -15,4 +20,14 @@
 
 .asterisk {
   font-style: italic;
+}
+
+.formTitle {
+  text-align: center;
+}
+
+.btn.title {
+  background-color : white;
+  color: black;
+  width: 90%;
 }
