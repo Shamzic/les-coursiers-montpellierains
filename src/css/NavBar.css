@@ -18,7 +18,8 @@ header {
 }
 
 #title {
-  margin-left: -14%;
+  margin-left: 2%;
+  width: 450px;
 }
 
 #logoTitle {
@@ -28,10 +29,25 @@ header {
   height: 55px;
 }
 
-.container.navbar{
+.lcmTitle {
+  margin-left: 11%;
+}
+
+.navbar{
   opacity: 0.75;
 }
 
+.menu-icon {
+  position: absolute;
+  left: calc(100vw - 70px);
+}
+
+@media screen and (max-width: 1200px) {
+
+  #title {
+    font-size: 1.40rem;
+  }
+}
 
 @media screen and (max-width: 1001px) {
 
@@ -41,17 +57,20 @@ header {
   }
   #title {
     margin-left: 0;
-    font-size: 1.55rem;
+    font-size: 1.30rem;
     text-align: center;
-    width: 100%;
     position: absolute;
+    padding-left:0px;
+    margin-left:-10px;
   }
   .sidenav {
     opacity: 1.0;
   }
 
   #logoTitle {
-    padding-top:15px;
+    padding-top:20px;
+    height: 50px;
+    margin-left:-10px;
   }
 }
 
@@ -67,8 +86,13 @@ header {
 @media screen and (max-width: 600px) {
 
     #logoTitle {
-      padding-top:10px;
-      height: 45px;
+      padding-top:20px;
+      height: 40px;
+      padding-left:0px;
+      margin-left:-10px;
+    }
+    .wrapper {
+      min-height:50px;
     }
   }
 
@@ -78,17 +102,20 @@ header {
     #title {
       font-size: 1.20rem;
       text-align: center;
-      width: 100%;
+      width: 50%;
     }
 
     #logoTitle {
-      padding-top:20px;
-      padding-left:10px;
+      padding-top:10px;
+      padding-left:-30px;
+      margin-left:-25px;
       position: absolute;
-      height: 45px;
+      height: 30px;
+    }
+    
+    .wrapper {
+      min-height:75px;
+      line-height: 1.7;
+      padding-top: 5px;
     }
   }
-
-#menu-icon {
-  margin-left: -50%;
-}

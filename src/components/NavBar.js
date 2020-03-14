@@ -9,14 +9,15 @@ function NavBar() {
 
       <header>
         <nav className="wrapper white lighten-5 ">
-          <div className="container navbar">
+          <div className="navbar">
             <a href="#" className="sidenav-trigger" data-target="mobile-links">
               <i className="material-icons black-text text-darken-2 menu-icon" id="menu-icon">menu</i>
             </a>
-            <a href="https://coursiers-montpellier.fr/" id="title" className="brand-logo black-text text-darken-2 title"><b>L</b>es <b>C</b>oursiers <b>M</b>ontpelliérains
+            <a href="https://coursiers-montpellier.fr/" id="title" className="brand-logo black-text text-darken-2 title">
               <img src={logo} alt="" id="logoTitle"></img>
+              <span className="lcmTitle" ><b>L</b>es <b>C</b>oursiers <b>M</b>ontpelliérains</span>
             </a>
-            <ul className="right hide-on-med-and-down black-text text-darken-2">
+            <ul className="onglets right hide-on-med-and-down black-text text-darken-2">
               <li><a href="#services" className="black-text text-darken-2">Commander un coursier</a></li>
               <li><a href="#photos" className="black-text text-darken-2">Photos</a></li>
               <li><a href="#presse" className="black-text text-darken-2">Presse</a></li>
