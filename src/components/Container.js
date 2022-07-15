@@ -47,7 +47,7 @@ class Container extends React.Component {
               <a href="https://coursiersmontpellier.coopcycle.org" className="col s12 btn-large waves-effect waves-light cmd-button repas"><span className="text-repas">LIVRAISON DE REPAS</span><i className="btn material-icons right pulse">send</i> </a>
             </div>
           </div>
-          <p> Faites vous livrer votre repas chaque jour entre <b>11h30</b> et <b>14h30</b> et entre <b>18h</b> et <b>23h</b> via notre plateforme <b>coopcycle</b> disponible en <a href="https://coursiersmontpellier.coopcycle.org">web</a>, sur <a href="https://play.google.com/store/apps/details?id=fr.coopcycle">android</a> et sur <a href="https://apps.apple.com/us/app/coopcycle/id1324884530?l=fr">iphone</a>.</p>
+          <p>Faites-vous livrer votre repas entre <b>11h30</b> et <b>14h</b> du lundi au samedi et entre <b>18h30</b> et <b>22h</b> du lundi au dimanche via notre plateforme <b>coopcycle</b> disponible sur notre <a href="https://coursiersmontpellier.coopcycle.org">site web</a>, sur <a href="https://play.google.com/store/apps/details?id=fr.coopcycle">android</a> et sur <a href="https://apps.apple.com/us/app/coopcycle/id1324884530?l=fr">iphone</a>.</p>
           <br/>
         </div>
         <div class="col  s12 m12 l5 offset-l1">
