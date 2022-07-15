@@ -24,14 +24,11 @@ class Container extends React.Component {
   }
 
   contactShow() {
-    console.log("show")
     if(this.state.contactHidden === "hidden") {
-      console.log("mask")
       this.setState({contactHidden: ""})
       this.setState({contact: "Masquer les contacts"})
     }
     else {
-      console.log("unmask")
       this.setState({contactHidden: "hidden"})
       this.setState({contact: "Contact immédiat"})
     }
@@ -72,9 +69,8 @@ class Container extends React.Component {
       <div className="col s3 offset-s4 btn-small waves-effect waves-light cmd-button" onClick={this.contactShow.bind(this)}>{this.state.contact}</div>
         <div  className="col s6 offset-s3" hidden={this.state.contactHidden}>
             <span className="contact-numbers">
-              <p><b>Paul Ferreira - 06.30.72.94.41</b></p>
               <p><b>Yannick Plan - 07.84.17.99.89</b></p>
-              <p><b>Vincent Robillard - 06.37.73.68.43</b></p>
+              <p><b>Nelly kouadio - 06.72.55.19.61</b></p>
             </span>
         </div>
     </div>
